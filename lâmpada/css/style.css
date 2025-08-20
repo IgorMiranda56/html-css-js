@@ -1,0 +1,33 @@
+body{
+    background: black;
+    transition: background 0.5s ease;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ img{
+    width: 300px;
+    margin-bottom: 40px;
+} 
+
+.central{
+    /* background: linear-gradient(gray, rgba(211, 211, 211, 0.185), black); */
+    width: fit-content;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.central button{
+    width: 100px;
+    background: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 25px;
+    border: 10%;
+}
+
+.central button:hover{
+    background: lightgray;
+}
