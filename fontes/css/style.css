@@ -1,0 +1,19 @@
+@font-face {
+    font-family: receba;
+    src: url(/images/JUSTICELEAGUE.ttf);
+}
+
+body{
+    background: url(../images/thumb-1920-1018181.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    font-size: 110px;
+    text-align: center;
+    color: gold;
+    font-family: receba;
+    font-weight: none;
+}
